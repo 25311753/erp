@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="E:\work_space\bin\asi\Exec\GraceStock.exe"/>
+    <OBJFILES value="E:\work_space\bin\asi\TempOBJ\GraceStock.obj 
+      E:\work_space\bin\asi\TempOBJ\DataModule.obj 
+      E:\work_space\bin\asi\TempOBJ\UserLogin.obj 
+      E:\work_space\bin\asi\TempOBJ\BaseCode.obj 
+      E:\work_space\bin\asi\TempOBJ\BaseFormUnit.obj 
+      E:\work_space\bin\asi\TempOBJ\DBSetup.obj 
+      E:\work_space\bin\asi\TempOBJ\operpwdunit.obj 
+      E:\work_space\bin\asi\TempOBJ\operatorunit.obj 
+      E:\work_space\bin\asi\TempOBJ\calsssetunit.obj 
+      E:\work_space\bin\asi\TempOBJ\ClassRight.obj 
+      E:\work_space\bin\asi\TempOBJ\ShowPrintSetup.obj 
+      E:\work_space\bin\asi\TempOBJ\MainFrame.obj 
+      E:\work_space\bin\asi\TempOBJ\CommUnit.obj 
+      E:\work_space\bin\asi\TempOBJ\DicClient.obj 
+      E:\work_space\bin\asi\TempOBJ\DicSupplier.obj 
+      E:\work_space\bin\asi\TempOBJ\Operation.obj 
+      E:\work_space\bin\asi\TempOBJ\FinanceOp.obj 
+      E:\work_space\bin\asi\TempOBJ\Commition.obj 
+      E:\work_space\bin\asi\TempOBJ\DicClientQry.obj 
+      E:\work_space\bin\asi\TempOBJ\NewClientPrize.obj 
+      E:\work_space\bin\asi\TempOBJ\QrySale.obj 
+      E:\work_space\bin\asi\TempOBJ\AlarmSale.obj 
+      E:\work_space\bin\asi\TempOBJ\YjQry.obj 
+      E:\work_space\bin\asi\TempOBJ\Tc.obj 
+      E:\work_space\bin\asi\TempOBJ\XkQry.obj 
+      E:\work_space\bin\asi\TempOBJ\OpQry.obj 
+      E:\work_space\bin\asi\TempOBJ\XkCSSZ.obj 
+      E:\work_space\bin\asi\TempOBJ\TcCSSZ.obj 
+      E:\work_space\bin\asi\TempOBJ\YjCSSZ.obj 
+      E:\work_space\bin\asi\TempOBJ\OpQryInOut.obj"/>
+    <RESFILES value="GraceStock.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) DataModule.dfm System\UserLogin.dfm FromLCG\BaseFormUnit.dfm 
+      System\DBSetup.dfm FromLCG\operpwdunit.dfm FromLCG\operatorunit.dfm 
+      FromLCG\calsssetunit.dfm System\ClassRight.dfm System\ShowPrintSetup.dfm 
+      MainFrame.dfm DicClient.dfm Purchase\DicSupplier.dfm 
+      Purchase\Operation.dfm Purchase\FinanceOp.dfm Purchase\Commition.dfm 
+      Purchase\DicClientQry.dfm Purchase\NewClientPrize.dfm Purchase\QrySale.dfm 
+      Purchase\AlarmSale.dfm Purchase\YjQry.dfm Purchase\Tc.dfm 
+      Purchase\XkQry.dfm Purchase\OpQry.dfm Purchase\XkCSSZ.dfm 
+      Purchase\TcCSSZ.dfm Purchase\YjCSSZ.dfm Purchase\OpQryInOut.dfm"/>
+    <LIBFILES value="BaseCode\GSLfcLib.lib"/>
+    <LIBRARIES value="bcbsmp.lib tee.lib teedb.lib adortl.lib bcb2kaxserver.lib vcldb.lib 
+      vclx.lib qrpt.lib bdertl.lib dbrtl.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib dbrtl.lib bdertl.lib qrpt.lib vclx.lib vcldb.lib 
+      bcb2kaxserver.lib adortl.lib teedb.lib tee.lib bcbsmp.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi vcldb.bpi vclx.bpi bdertl.bpi vcldbx.bpi 
+      ibxpress.bpi qrpt.bpi visualclx.bpi visualdbclx.bpi inet.bpi inetdb.bpi 
+      dsnap.bpi nmfast.bpi bcbie.bpi dbexpress.bpi indy.bpi bcb2kaxserver.bpi 
+      adortl.bpi cds.bpi dsnapcrba.bpi dsnapcon.bpi dss.bpi teeui.bpi teedb.bpi 
+      tee.bpi bdecds.bpi dbxcds.bpi vclie.bpi xmlrtl.bpi inetdbbde.bpi 
+      inetdbxpress.bpi teeqr.bpi webdsnap.bpi websnap.bpi"/>
+    <PATHCPP value=".;System;BaseCode;FromLCG;Purchase"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="GraceStock.cpp"/>
+    <INCLUDEPATH value="E:\work_space\bin\asi\Exec;tmpForm;&quot;D:\Program Files\Borland\CBuilder6\Projects&quot;;&quot;E:\Program Files\Borland\CBuilder6\Bin&quot;;..\..;&quot;E:\Program Files\Borland\CBuilder6\Projects&quot;;MaterCmp;SumData;e:\Borland\CBuilder6\Projects;InforSearch;DataRow;Purchase;BaseData;&quot;C:\Program Files\Borland\CBuilder6\Bin&quot;;BaseCode;System;FromLCG;$(BCB)\include;$(BCB)\include\vcl;common"/>
+    <LIBPATH value="E:\work_space\bin\asi\Exec;tmpForm;&quot;D:\Program Files\Borland\CBuilder6\Projects&quot;;&quot;E:\Program Files\Borland\CBuilder6\Bin&quot;;..\..;&quot;E:\Program Files\Borland\CBuilder6\Projects&quot;;MaterCmp;SumData;e:\Borland\CBuilder6\Projects;InforSearch;DataRow;Purchase;BaseData;&quot;C:\Program Files\Borland\CBuilder6\Bin&quot;;BaseCode;System;FromLCG;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par -w-8027 -w-8026 -w-aus"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-IE:\work_space\bin\asi\Exec -ItmpForm 
+      -I&quot;D:\Program Files\Borland\CBuilder6\Projects&quot; 
+      -I&quot;E:\Program Files\Borland\CBuilder6\Bin&quot; -I..\.. 
+      -I&quot;E:\Program Files\Borland\CBuilder6\Projects&quot; -IMaterCmp -ISumData 
+      -Ie:\Borland\CBuilder6\Projects -IInforSearch -IDataRow -IPurchase 
+      -IBaseData -I&quot;C:\Program Files\Borland\CBuilder6\Bin&quot; -IBaseCode -ISystem 
+      -IFromLCG -I$(BCB)\include -I$(BCB)\include\vcl -Icommon -src_suffix cpp 
+      -boa"/>
+    <CFLAG1 value="-O2 -H=$(BCB)\lib\vcl50.csm -Hc -Vx -Ve -X- -a8 -5 -b- -k- -vi -c -tW -tWM"/>
+    <PFLAGS value="-N2E:\work_space\bin\asi\TempOBJ -N0E:\work_space\bin\asi\TempOBJ -$Y- 
+      -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-lE:\work_space\bin\asi\TempOBJ -IE:\work_space\bin\asi\TempOBJ -D&quot;&quot; -aa 
+      -Tpe -x -Gn"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="GraceStock.cpp" FORMNAME="" UNITNAME="GraceStock" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DataModule.cpp" FORMNAME="dm1" UNITNAME="DataModule" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="System\UserLogin.cpp" FORMNAME="UserLoginForm" UNITNAME="UserLogin" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BaseCode\BaseCode.cpp" FORMNAME="" UNITNAME="BaseCode" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FromLCG\BaseFormUnit.cpp" FORMNAME="BaseForm" UNITNAME="BaseFormUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="System\DBSetup.cpp" FORMNAME="DBSetupForm" UNITNAME="DBSetup" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FromLCG\operpwdunit.cpp" FORMNAME="operpwdform" UNITNAME="operpwdunit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FromLCG\operatorunit.cpp" FORMNAME="operatorform" UNITNAME="operatorunit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FromLCG\calsssetunit.cpp" FORMNAME="classsetform" UNITNAME="calsssetunit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="System\ClassRight.cpp" FORMNAME="ClassRightForm" UNITNAME="ClassRight" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="System\ShowPrintSetup.cpp" FORMNAME="ShowPrnSetupForm" UNITNAME="ShowPrintSetup" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BaseCode\GSLfcLib.lib" FORMNAME="" UNITNAME="GSLfcLib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MainFrame.cpp" FORMNAME="MainForm" UNITNAME="MainFrame" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FromLCG\CommUnit.cpp" FORMNAME="" UNITNAME="CommUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BaseCode\GSLfcBase.h" FORMNAME="" UNITNAME="GSLfcBase.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Purchase\DicSA.dfm" FORMNAME="" UNITNAME="DicSA.dfm" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GraceStock.RES" FORMNAME="" UNITNAME="GraceStock.RES" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DicClient.cpp" FORMNAME="DicClientForm" UNITNAME="DicClient" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Purchase\DicSupplier.cpp" FORMNAME="DicSupplierForm" UNITNAME="DicSupplier" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Purchase\Operation.cpp" FORMNAME="OperationForm" UNITNAME="Operation" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Purchase\FinanceOp.cpp" FORMNAME="FinanceOpForm" UNITNAME="FinanceOp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BaseCode\common.hpp" FORMNAME="" UNITNAME="common.hpp" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Purchase\Commition.cpp" FORMNAME="CommitionForm" UNITNAME="Commition" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Purchase\DicClientQry.cpp" FORMNAME="DicClientQryForm" UNITNAME="DicClientQry" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="common\def.h" FORMNAME="" UNITNAME="def.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Purchase\NewClientPrize.cpp" FORMNAME="NewClientPrizeForm" UNITNAME="NewClientPrize" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Purchase\QrySale.cpp" FORMNAME="QrySaleForm" UNITNAME="QrySale" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Purchase\AlarmSale.cpp" FORMNAME="AlarmSaleForm" UNITNAME="AlarmSale" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Purchase\YjQry.cpp" FORMNAME="YjQryForm" UNITNAME="YjQry" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Purchase\Tc.cpp" FORMNAME="TcForm" UNITNAME="Tc" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Purchase\XkQry.cpp" FORMNAME="XkQryForm" UNITNAME="XkQry" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Purchase\OpQry.cpp" FORMNAME="OpQryForm" UNITNAME="OpQry" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Purchase\XkCSSZ.cpp" FORMNAME="XkCSSZForm" UNITNAME="XkCSSZ" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Purchase\TcCSSZ.cpp" FORMNAME="TcCSSZForm" UNITNAME="TcCSSZ" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Purchase\YjCSSZ.cpp" FORMNAME="YjCSSZForm" UNITNAME="YjCSSZ" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Purchase\OpQryInOut.cpp" FORMNAME="OpQryInOutForm" UNITNAME="OpQryInOut" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=2052
+CodePage=936
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=18
+Item0=E:\work_space\bin\asi\Exec;tmpForm;D:\Program Files\Borland\CBuilder6\Projects;E:\Program Files\Borland\CBuilder6\Bin;..\..;E:\Program Files\Borland\CBuilder6\Projects;MaterCmp;SumData;e:\Borland\CBuilder6\Projects;InforSearch;DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin;BaseCode;System;FromLCG;$(BCB)\include;$(BCB)\include\vcl;common
+Item1=E:\work_space\bin\asi\Exec;tmpForm;D:\Program Files\Borland\CBuilder6\Projects;E:\Program Files\Borland\CBuilder6\Bin;..\..;E:\Program Files\Borland\CBuilder6\Projects;MaterCmp;SumData;e:\Borland\CBuilder6\Projects;InforSearch;DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin;BaseCode;System;FromLCG;$(BCB)\include;$(BCB)\include\vcl
+Item2=E:\work_space\bin_runshun\Exec;tmpForm;D:\Program Files\Borland\CBuilder6\Projects;E:\Program Files\Borland\CBuilder6\Bin;..\..;E:\Program Files\Borland\CBuilder6\Projects;MaterCmp;SumData;e:\Borland\CBuilder6\Projects;InforSearch;DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin;BaseCode;System;FromLCG;$(BCB)\include;$(BCB)\include\vcl
+Item3=E:\work_space\runshun\Exec;tmpForm;D:\Program Files\Borland\CBuilder6\Projects;E:\Program Files\Borland\CBuilder6\Bin;..\..;E:\Program Files\Borland\CBuilder6\Projects;MaterCmp;SumData;e:\Borland\CBuilder6\Projects;InforSearch;DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin;BaseCode;System;FromLCG;$(BCB)\include;$(BCB)\include\vcl
+Item4=..\Exec;tmpForm;D:\Program Files\Borland\CBuilder6\Projects;E:\Program Files\Borland\CBuilder6\Bin;..\..;E:\Program Files\Borland\CBuilder6\Projects;MaterCmp;SumData;e:\Borland\CBuilder6\Projects;InforSearch;DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin;BaseCode;System;FromLCG;$(BCB)\include;$(BCB)\include\vcl
+Item5=tmpForm;D:\Program Files\Borland\CBuilder6\Projects;E:\Program Files\Borland\CBuilder6\Bin;..\..;E:\Program Files\Borland\CBuilder6\Projects;MaterCmp;SumData;e:\Borland\CBuilder6\Projects;InforSearch;DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin;BaseCode;System;FromLCG;$(BCB)\include;$(BCB)\include\vcl
+Item6=E:\Program Files\Borland\CBuilder6\Bin;..\..;E:\Program Files\Borland\CBuilder6\Projects;MaterCmp;SumData;e:\Borland\CBuilder6\Projects;InforSearch;DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin;BaseCode;System;FromLCG;$(BCB)\include;$(BCB)\include\vcl
+Item7=E:\Program Files\Borland\CBuilder6\Projects;MaterCmp;SumData;e:\Borland\CBuilder6\Projects;InforSearch;DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin;BaseCode;System;FromLCG;$(BCB)\include;$(BCB)\include\vcl
+Item8=MaterCmp;SumData;e:\Borland\CBuilder6\Projects;InforSearch;DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin;BaseCode;System;FromLCG;$(BCB)\include;$(BCB)\include\vcl
+Item9=MaterCmp;SumData;e:\Borland\CBuilder6\Projects\;InforSearch;DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin\;BaseCode;System;FromLCG;$(BCB)\include;$(BCB)\include\vcl
+Item10=SumData;e:\Borland\CBuilder6\Projects\;InforSearch;DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin\;BaseCode;System;FromLCG;$(BCB)\include;$(BCB)\include\vcl
+Item11=e:\Borland\CBuilder6\Projects\;InforSearch;DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin\;BaseCode;System;FromLCG;$(BCB)\include;$(BCB)\include\vcl
+Item12=e:\Borland\CBuilder6\Projects;InforSearch;DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin\;BaseCode;System;FromLCG;$(BCB)\include;$(BCB)\include\vcl
+Item13=InforSearch;DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin\;BaseCode;System;FromLCG;$(BCB)\include;$(BCB)\include\vcl
+Item14=DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin\;BaseCode;System;FromLCG;$(BCB)\include;$(BCB)\include\vcl
+Item15=BaseData;C:\Program Files\Borland\CBuilder6\Bin\;BaseCode;System;FromLCG;$(BCB)\include;$(BCB)\include\vcl
+Item16=BaseData;C:\Program Files\Borland\CBuilder6\Bin;BaseCode;System;FromLCG;$(BCB)\include;$(BCB)\include\vcl
+Item17=$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=17
+Item0=E:\work_space\bin\asi\Exec;tmpForm;D:\Program Files\Borland\CBuilder6\Projects;E:\Program Files\Borland\CBuilder6\Bin;..\..;E:\Program Files\Borland\CBuilder6\Projects;MaterCmp;SumData;e:\Borland\CBuilder6\Projects;InforSearch;DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin;BaseCode;System;FromLCG;$(BCB)\lib\obj;$(BCB)\lib
+Item1=E:\work_space\bin_runshun\Exec;tmpForm;D:\Program Files\Borland\CBuilder6\Projects;E:\Program Files\Borland\CBuilder6\Bin;..\..;E:\Program Files\Borland\CBuilder6\Projects;MaterCmp;SumData;e:\Borland\CBuilder6\Projects;InforSearch;DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin;BaseCode;System;FromLCG;$(BCB)\lib\obj;$(BCB)\lib
+Item2=E:\work_space\runshun\Exec;tmpForm;D:\Program Files\Borland\CBuilder6\Projects;E:\Program Files\Borland\CBuilder6\Bin;..\..;E:\Program Files\Borland\CBuilder6\Projects;MaterCmp;SumData;e:\Borland\CBuilder6\Projects;InforSearch;DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin;BaseCode;System;FromLCG;$(BCB)\lib\obj;$(BCB)\lib
+Item3=..\Exec;tmpForm;D:\Program Files\Borland\CBuilder6\Projects;E:\Program Files\Borland\CBuilder6\Bin;..\..;E:\Program Files\Borland\CBuilder6\Projects;MaterCmp;SumData;e:\Borland\CBuilder6\Projects;InforSearch;DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin;BaseCode;System;FromLCG;$(BCB)\lib\obj;$(BCB)\lib
+Item4=tmpForm;D:\Program Files\Borland\CBuilder6\Projects;E:\Program Files\Borland\CBuilder6\Bin;..\..;E:\Program Files\Borland\CBuilder6\Projects;MaterCmp;SumData;e:\Borland\CBuilder6\Projects;InforSearch;DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin;BaseCode;System;FromLCG;$(BCB)\lib\obj;$(BCB)\lib
+Item5=E:\Program Files\Borland\CBuilder6\Bin;..\..;E:\Program Files\Borland\CBuilder6\Projects;MaterCmp;SumData;e:\Borland\CBuilder6\Projects;InforSearch;DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin;BaseCode;System;FromLCG;$(BCB)\lib\obj;$(BCB)\lib
+Item6=E:\Program Files\Borland\CBuilder6\Projects;MaterCmp;SumData;e:\Borland\CBuilder6\Projects;InforSearch;DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin;BaseCode;System;FromLCG;$(BCB)\lib\obj;$(BCB)\lib
+Item7=MaterCmp;SumData;e:\Borland\CBuilder6\Projects;InforSearch;DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin;BaseCode;System;FromLCG;$(BCB)\lib\obj;$(BCB)\lib
+Item8=MaterCmp;SumData;e:\Borland\CBuilder6\Projects\;InforSearch;DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin\;BaseCode;System;FromLCG;$(BCB)\lib\obj;$(BCB)\lib
+Item9=SumData;e:\Borland\CBuilder6\Projects\;InforSearch;DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin\;BaseCode;System;FromLCG;$(BCB)\lib\obj;$(BCB)\lib
+Item10=e:\Borland\CBuilder6\Projects\;InforSearch;DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin\;BaseCode;System;FromLCG;$(BCB)\lib\obj;$(BCB)\lib
+Item11=e:\Borland\CBuilder6\Projects;InforSearch;DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin\;BaseCode;System;FromLCG;$(BCB)\lib\obj;$(BCB)\lib
+Item12=InforSearch;DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin\;BaseCode;System;FromLCG;$(BCB)\lib\obj;$(BCB)\lib
+Item13=DataRow;Purchase;BaseData;C:\Program Files\Borland\CBuilder6\Bin\;BaseCode;System;FromLCG;$(BCB)\lib\obj;$(BCB)\lib
+Item14=BaseData;C:\Program Files\Borland\CBuilder6\Bin\;BaseCode;System;FromLCG;$(BCB)\lib\obj;$(BCB)\lib
+Item15=BaseData;C:\Program Files\Borland\CBuilder6\Bin;BaseCode;System;FromLCG;$(BCB)\lib\obj;$(BCB)\lib
+Item16=$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[HistoryLists\hlIntOutputDir]
+Count=5
+Item0=E:\work_space\bin\asi\TempOBJ
+Item1=E:\work_space\bin_runshun\TempOBJ
+Item2=E:\work_space\runshun\TempOBJ
+Item3=..\TempOBJ
+Item4=D:\lao\GraceStock\TempOBJ
+
+[HistoryLists\hlFinalOutputDir]
+Count=7
+Item0=E:\work_space\bin\asi\Exec\
+Item1=E:\work_space\bin_runshun\Exec\
+Item2=E:\work_space\runshun\Exec\
+Item3=..\Exec\
+Item4=D:\lao\GraceStock\Exec
+Item5=..\..\Share\
+Item6=D:\lao\Share
+
+[HistoryLists\hIBPIOutputDir]
+Count=8
+Item0=E:\work_space\bin\asi\TempOBJ
+Item1=E:\work_space\bin_runshun\TempOBJ
+Item2=E:\work_space\runshun\TempOBJ
+Item3=..\TempOBJ
+Item4=D:\GraceStock\TempOBJ
+Item5=E:\GraceStock\TempOBJ
+Item6=D:\lao\GraceStock\TempOBJ
+Item7=D:\lao\GraceStock\TempOBJ\
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>
