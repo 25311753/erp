@@ -10,7 +10,7 @@ object dm1: Tdm1
     LoginPrompt = False
     Params.Strings = (
       'user name=asiuser'
-      'password=,ki89ol.')
+      'password=asiuser')
     SessionName = 'Default'
     Left = 23
     Top = 14

@@ -641,8 +641,10 @@ void __fastcall TDicClientForm::FormCreate(TObject *Sender)
 
 void __fastcall TDicClientForm::Button1Click(TObject *Sender)
 {
+
          this->TrayIcon1->Minimize();               
 }
 //---------------------------------------------------------------------------
+
 
 

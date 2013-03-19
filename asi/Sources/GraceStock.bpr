@@ -4,36 +4,34 @@
   <MACROS>
     <VERSION value="BCB.06.00"/>
     <PROJECT value="E:\work_space\bin\asi\Exec\GraceStock.exe"/>
-    <OBJFILES value="E:\work_space\bin\asi\TempOBJ\GraceStock.obj 
-      E:\work_space\bin\asi\TempOBJ\DataModule.obj 
-      E:\work_space\bin\asi\TempOBJ\UserLogin.obj 
-      E:\work_space\bin\asi\TempOBJ\BaseCode.obj 
-      E:\work_space\bin\asi\TempOBJ\BaseFormUnit.obj 
-      E:\work_space\bin\asi\TempOBJ\DBSetup.obj 
-      E:\work_space\bin\asi\TempOBJ\operpwdunit.obj 
-      E:\work_space\bin\asi\TempOBJ\operatorunit.obj 
-      E:\work_space\bin\asi\TempOBJ\calsssetunit.obj 
-      E:\work_space\bin\asi\TempOBJ\ClassRight.obj 
-      E:\work_space\bin\asi\TempOBJ\ShowPrintSetup.obj 
-      E:\work_space\bin\asi\TempOBJ\MainFrame.obj 
-      E:\work_space\bin\asi\TempOBJ\CommUnit.obj 
-      E:\work_space\bin\asi\TempOBJ\DicClient.obj 
-      E:\work_space\bin\asi\TempOBJ\DicSupplier.obj 
-      E:\work_space\bin\asi\TempOBJ\Operation.obj 
-      E:\work_space\bin\asi\TempOBJ\FinanceOp.obj 
-      E:\work_space\bin\asi\TempOBJ\Commition.obj 
-      E:\work_space\bin\asi\TempOBJ\DicClientQry.obj 
-      E:\work_space\bin\asi\TempOBJ\NewClientPrize.obj 
-      E:\work_space\bin\asi\TempOBJ\QrySale.obj 
-      E:\work_space\bin\asi\TempOBJ\AlarmSale.obj 
-      E:\work_space\bin\asi\TempOBJ\YjQry.obj 
-      E:\work_space\bin\asi\TempOBJ\Tc.obj 
-      E:\work_space\bin\asi\TempOBJ\XkQry.obj 
-      E:\work_space\bin\asi\TempOBJ\OpQry.obj 
-      E:\work_space\bin\asi\TempOBJ\XkCSSZ.obj 
-      E:\work_space\bin\asi\TempOBJ\TcCSSZ.obj 
-      E:\work_space\bin\asi\TempOBJ\YjCSSZ.obj 
-      E:\work_space\bin\asi\TempOBJ\OpQryInOut.obj"/>
+    <OBJFILES value="..\..\..\..\bin\asi\TempOBJ\GraceStock.obj 
+      ..\..\..\..\bin\asi\TempOBJ\DataModule.obj 
+      ..\..\..\..\bin\asi\TempOBJ\UserLogin.obj 
+      ..\..\..\..\bin\asi\TempOBJ\BaseCode.obj 
+      ..\..\..\..\bin\asi\TempOBJ\BaseFormUnit.obj 
+      ..\..\..\..\bin\asi\TempOBJ\DBSetup.obj 
+      ..\..\..\..\bin\asi\TempOBJ\operpwdunit.obj 
+      ..\..\..\..\bin\asi\TempOBJ\operatorunit.obj 
+      ..\..\..\..\bin\asi\TempOBJ\calsssetunit.obj 
+      ..\..\..\..\bin\asi\TempOBJ\ClassRight.obj 
+      ..\..\..\..\bin\asi\TempOBJ\ShowPrintSetup.obj 
+      ..\..\..\..\bin\asi\TempOBJ\MainFrame.obj 
+      ..\..\..\..\bin\asi\TempOBJ\CommUnit.obj 
+      ..\..\..\..\bin\asi\TempOBJ\DicClient.obj 
+      ..\..\..\..\bin\asi\TempOBJ\DicSupplier.obj 
+      ..\..\..\..\bin\asi\TempOBJ\Operation.obj 
+      ..\..\..\..\bin\asi\TempOBJ\FinanceOp.obj 
+      ..\..\..\..\bin\asi\TempOBJ\Commition.obj 
+      ..\..\..\..\bin\asi\TempOBJ\DicClientQry.obj 
+      ..\..\..\..\bin\asi\TempOBJ\NewClientPrize.obj 
+      ..\..\..\..\bin\asi\TempOBJ\QrySale.obj 
+      ..\..\..\..\bin\asi\TempOBJ\AlarmSale.obj 
+      ..\..\..\..\bin\asi\TempOBJ\YjQry.obj ..\..\..\..\bin\asi\TempOBJ\Tc.obj 
+      ..\..\..\..\bin\asi\TempOBJ\XkQry.obj 
+      ..\..\..\..\bin\asi\TempOBJ\OpQry.obj ..\..\..\..\bin\asi\TempOBJ\XkCSSZ.obj 
+      ..\..\..\..\bin\asi\TempOBJ\TcCSSZ.obj 
+      ..\..\..\..\bin\asi\TempOBJ\YjCSSZ.obj 
+      ..\..\..\..\bin\asi\TempOBJ\OpQryInOut.obj"/>
     <RESFILES value="GraceStock.res"/>
     <IDLFILES value=""/>
     <IDLGENFILES value=""/>

@@ -1,7 +1,7 @@
 object OperationForm: TOperationForm
-  Left = 209
-  Top = 121
-  Width = 1148
+  Left = 108
+  Top = 90
+  Width = 1177
   Height = 735
   BorderIcons = [biSystemMenu]
   Caption = #25805#20316#26126#32454
@@ -71,9 +71,9 @@ object OperationForm: TOperationForm
   end
   object lvOpDetail: TListView
     Left = 2
-    Top = 314
+    Top = 320
     Width = 1128
-    Height = 378
+    Height = 372
     Columns = <
       item
         Caption = #25805#20316#26085#26399
@@ -164,7 +164,7 @@ object OperationForm: TOperationForm
     OnSelectItem = lvOpDetailSelectItem
   end
   object plInput: TPanel
-    Left = 17
+    Left = 1
     Top = 30
     Width = 1134
     Height = 275

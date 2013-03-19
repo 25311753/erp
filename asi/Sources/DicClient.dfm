@@ -185,6 +185,7 @@ object DicClientForm: TDicClientForm
     Top = 8
     Width = 121
     Height = 21
+    ImeName = #35895#27468#25340#38899#36755#20837#27861' 2'
     TabOrder = 8
     Text = 'edtDebug'
     Visible = False
@@ -556,6 +557,7 @@ object DicClientForm: TDicClientForm
       Width = 122
       Height = 21
       Style = csDropDownList
+      ImeName = #35895#27468#25340#38899#36755#20837#27861' 2'
       ItemHeight = 13
       TabOrder = 4
       Items.Strings = (
@@ -569,6 +571,7 @@ object DicClientForm: TDicClientForm
       Width = 120
       Height = 21
       Style = csDropDownList
+      ImeName = #35895#27468#25340#38899#36755#20837#27861' 2'
       ItemHeight = 13
       TabOrder = 16
       Items.Strings = (
@@ -584,6 +587,7 @@ object DicClientForm: TDicClientForm
       Top = 32
       Width = 497
       Height = 21
+      ImeName = #35895#27468#25340#38899#36755#20837#27861' 2'
       TabOrder = 5
       Text = 'edtAddress'
     end
@@ -592,6 +596,7 @@ object DicClientForm: TDicClientForm
       Top = 32
       Width = 121
       Height = 21
+      ImeName = #35895#27468#25340#38899#36755#20837#27861' 2'
       TabOrder = 6
       Text = 'edtTel'
     end
@@ -600,6 +605,7 @@ object DicClientForm: TDicClientForm
       Top = 32
       Width = 121
       Height = 21
+      ImeName = #35895#27468#25340#38899#36755#20837#27861' 2'
       TabOrder = 7
       Text = 'edtFax'
     end
@@ -608,6 +614,7 @@ object DicClientForm: TDicClientForm
       Top = 61
       Width = 121
       Height = 21
+      ImeName = #35895#27468#25340#38899#36755#20837#27861' 2'
       TabOrder = 8
       Text = 'edtLinkMan'
     end
@@ -616,6 +623,7 @@ object DicClientForm: TDicClientForm
       Top = 61
       Width = 121
       Height = 21
+      ImeName = #35895#27468#25340#38899#36755#20837#27861' 2'
       TabOrder = 9
       Text = 'edtTelLinkMan'
     end
@@ -624,6 +632,7 @@ object DicClientForm: TDicClientForm
       Top = 61
       Width = 121
       Height = 21
+      ImeName = #35895#27468#25340#38899#36755#20837#27861' 2'
       TabOrder = 10
       Text = 'edtQQ'
     end
@@ -632,6 +641,7 @@ object DicClientForm: TDicClientForm
       Top = 61
       Width = 121
       Height = 21
+      ImeName = #35895#27468#25340#38899#36755#20837#27861' 2'
       TabOrder = 11
       Text = 'edtMsn'
     end
@@ -640,6 +650,7 @@ object DicClientForm: TDicClientForm
       Top = 61
       Width = 121
       Height = 21
+      ImeName = #35895#27468#25340#38899#36755#20837#27861' 2'
       TabOrder = 12
       Text = 'edtEmail'
     end
@@ -649,6 +660,7 @@ object DicClientForm: TDicClientForm
       Width = 121
       Height = 21
       Style = csDropDownList
+      ImeName = #35895#27468#25340#38899#36755#20837#27861' 2'
       ItemHeight = 13
       TabOrder = 13
       Items.Strings = (
@@ -664,6 +676,7 @@ object DicClientForm: TDicClientForm
       Width = 123
       Height = 21
       Style = csDropDownList
+      ImeName = #35895#27468#25340#38899#36755#20837#27861' 2'
       ItemHeight = 13
       TabOrder = 15
       Items.Strings = (
@@ -679,6 +692,7 @@ object DicClientForm: TDicClientForm
       Width = 122
       Height = 21
       Style = csDropDownList
+      ImeName = #35895#27468#25340#38899#36755#20837#27861' 2'
       ItemHeight = 13
       TabOrder = 14
       Items.Strings = (
@@ -692,6 +706,7 @@ object DicClientForm: TDicClientForm
       Top = 90
       Width = 121
       Height = 21
+      ImeName = #35895#27468#25340#38899#36755#20837#27861' 2'
       TabOrder = 19
       Text = 'edtFirstOpId'
       Visible = False
@@ -716,6 +731,7 @@ object DicClientForm: TDicClientForm
       Top = 141
       Width = 511
       Height = 21
+      ImeName = #35895#27468#25340#38899#36755#20837#27861' 2'
       TabOrder = 18
       Text = 'edtRemarks'
     end
@@ -725,6 +741,7 @@ object DicClientForm: TDicClientForm
       Width = 114
       Height = 21
       Style = csDropDownList
+      ImeName = #35895#27468#25340#38899#36755#20837#27861' 2'
       ItemHeight = 13
       TabOrder = 20
     end
@@ -734,6 +751,7 @@ object DicClientForm: TDicClientForm
       Width = 114
       Height = 21
       Style = csDropDownList
+      ImeName = #35895#27468#25340#38899#36755#20837#27861' 2'
       ItemHeight = 13
       TabOrder = 21
     end
