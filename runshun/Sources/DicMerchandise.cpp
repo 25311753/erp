@@ -291,11 +291,11 @@ strcpy(strUnitPrice2,sp2.c_str());
     if(m_enWorkState==EN_ADDNEW)
     {
       char strAddSQL[4024];
-      sprintf(strAddSQL,"select * from merchandise where mcode='%s' or mname='%s' or (no='%s' and no!=0 ) order by mcode",strMCode, strMname, strNo);  //20130810 and->or: 不允许重复商品名
+      sprintf(strAddSQL,"select * from merchandise where (mcode='%s' and mname='%s') or (no='%s' and no!=0 ) order by mcode",strMCode, strMname, strNo);  //20130810 and->or: 不允许重复商品名
       RunSQL(strAddSQL,true);
       if(dm1->Query1->RecordCount>0)
       {
-        ShowMessage("数据库中已有该商品的记录!");
+        ShowMessage("数据库中已有该商品的记录()!");
         edtMCode->SetFocus();
         return;
       }
