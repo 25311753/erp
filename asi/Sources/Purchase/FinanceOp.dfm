@@ -1,6 +1,6 @@
 object FinanceOpForm: TFinanceOpForm
-  Left = 140
-  Top = 48
+  Left = 44
+  Top = 28
   Width = 1176
   Height = 672
   BorderIcons = [biSystemMenu]
@@ -1128,6 +1128,7 @@ object FinanceOpForm: TFinanceOpForm
     Top = 0
     Width = 489
     Height = 21
+    ImeName = #35895#27468#25340#38899#36755#20837#27861' 2'
     TabOrder = 3
     Text = 'edtDebug'
     Visible = False
