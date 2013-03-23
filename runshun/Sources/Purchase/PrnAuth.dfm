@@ -1,9 +1,8 @@
 object PrnAuthForm: TPrnAuthForm
-  Left = -1288
-  Top = -232
+  Left = 488
+  Top = 30
   Width = 1296
-  Height = 1010
-  VertScrollBar.Position = 160
+  Height = 816
   Caption = #25171#21360#22996#25176#20070
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -17,8 +16,8 @@ object PrnAuthForm: TPrnAuthForm
   PixelsPerInch = 96
   TextHeight = 13
   object PrnView: TQuickRep
-    Left = 104
-    Top = -152
+    Left = 248
+    Top = 24
     Width = 794
     Height = 1123
     Frame.Color = clBlack
@@ -46,7 +45,7 @@ object PrnAuthForm: TPrnAuthForm
     Page.Values = (
       100
       2970
-      200
+      100
       2100
       0
       0
@@ -62,7 +61,7 @@ object PrnAuthForm: TPrnAuthForm
     Zoom = 100
     object TitleBand1: TQRBand
       Left = 0
-      Top = 76
+      Top = 38
       Width = 794
       Height = 1025
       Frame.Color = clBlack

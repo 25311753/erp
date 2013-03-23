@@ -484,7 +484,7 @@ int TDoForm::ModHead(){
 
 
         if (edtDeclareid->Text.IsEmpty() || edtDeclareid->Text.IsEmpty() || cbbOperunit->Text.IsEmpty() \
-                 || edtLicenseno->Text.IsEmpty() || cbbPack->Text.IsEmpty() || edtLoadingid->Text.IsEmpty() || cbbTransport->Text.IsEmpty()\
+                 || cbbPack->Text.IsEmpty() || edtLoadingid->Text.IsEmpty() || cbbTransport->Text.IsEmpty()\
                   || edtOutport->Text.IsEmpty() || cbbBargain->Text.IsEmpty() || cbbZhengmian->Text.IsEmpty() || edtInnersupplyadd->Text.IsEmpty() \
                    || cbbExcharge->Text.IsEmpty() || cbbTrade->Text.IsEmpty() || cbbTargetCountry->Text.IsEmpty()     \
                     || edtMarks->Text.IsEmpty() \
@@ -2908,6 +2908,7 @@ void __fastcall TDoForm::edtTotalPriceChange(TObject *Sender)
         nWhoChanging = 0;
 }
 //---------------------------------------------------------------------------
+
 
 
 
